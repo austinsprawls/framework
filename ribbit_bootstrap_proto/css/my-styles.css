@@ -2,7 +2,7 @@
 
 
 body{
-    padding-top: 70px;
+    padding-top: 50px;
 }
 
 .container{
@@ -12,4 +12,11 @@ body{
 
 .jumbotron{
     text-align: center;
+}
+
+.glyphicon{
+    font-size: 3em;
+    display: block;
+    text-align: center;
+    color: #3a87ad;
 }

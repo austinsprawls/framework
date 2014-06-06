@@ -24,35 +24,66 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            
+
             <a class="navbar-brand text-muted" href="#">Ribbit</a>
             <div class="collapse navbar-collapse">
 
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="#">Home</a></li>
                     <li><a href="#">About Ribbit</a></li>
-                    <li><a href="#">Treehouse</a></li>
+                    <li class="dropdown">
+                        <a data-toggle="dropdown" data-target="#">Treehouse<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">About Treehouse</a></li>
+                            <li><a href="#">Video Library</a></li>
+                            <li><a href="#">Learning Adventures</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Plans &amp; Pricing</a></li>
+                        </ul>
+                    </li>
                 </ul>
 
             </div>
         </div>
     </div>
 
+    <div id="myCarousel" class="carousel slide jumbotron">
+        <div class="container">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <h1>Self-destructing message app</h1>
+                    <p class="lead">Learn how to build this fun little app by signing up for a Treehouse account today!
+                    We'll teach you how to build both apps from scratch!</p>
+                    <p class="btn-group">
+                        <a class= "btn btn-success btn-lg" href="#">Download the app</a>
+                        <a class="btn btn-default btn-lg hidden-xs" href="#">Text me the link</a>
+                    </p>
+                </div>
+                <div class="item">
+                    <h1>Learn how to build it for iOS</h1>
+                    <p class="lead">We'll teach you how to build it from scratch!</p>
+                    <p>
+                        <a class="btn btn-success btn-lg" href="#">Get started today!</a>
+                    </p>
+                </div>
+                <div class="item">
+                    <h1>Learn how to build it for Android</h1>
+                    <p class="lead">We'll teach you how to build it from scratch!</p>
+                    <p>
+                        <a class="btn btn-success btn-lg" href="#">Get started today!</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
     <div class="container">
 
-        <div class="jumbotron">
-            <h1>Self-destructing message app</h1>
-            <p class="lead">Learn how to build this fun little app by signing up for a Treehouse account today!
-            We'll teach you how to build both apps from scratch!</p>
-            <p class="btn-group">
-                <a class= "btn btn-success btn-lg" href="#">Download the app</a>
-                <a class="btn btn-default btn-lg hidden-xs" href="#">Text me the link</a>
-            </p>
-        </div>
-
         <div class="row">
             <div class="col-sm-4">
+                <b class="glyphicon glyphicon-camera"></b>
                 <h2>Delete photo &amp; video based on a timer</h2>
                 <p>Learn how to write the code that downloads and displays messages,
                 photos, and videos that timeout after a few seconds. Then create the code
@@ -60,6 +91,7 @@
             </div>
 
             <div class="col-sm-4">
+                <b class="glyphicon glyphicon-user"></b>
                 <h2>Build an easily managed friends list</h2>
                 <p>Learn what Parse.com offers as a "backend-as-a-service" platform.
                 Explore the user account management APIs provided by Parse.com and write
@@ -67,6 +99,7 @@
             </div>
 
             <div class="col-sm-4">
+                <b class="glyphicon glyphicon-cloud"></b>
                 <h2>Store &amp; retrieve data using cloud servers</h2>
                 <p>We'll teach you how to upload images, video files, and messages to
                 Parse.com's cloud servers. Then learn how to retrieve the data by setting
