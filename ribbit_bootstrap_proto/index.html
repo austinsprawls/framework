@@ -49,6 +49,11 @@
 
     <div id="myCarousel" class="carousel slide jumbotron">
         <div class="container">
+            <ol class="carousel-indicators">
+                <li class="active" data-target="#myCarousel" data-slide-to=0></li>
+                <li data-target="#myCarousel" data-slide-to=1></li>
+                <li data-target="#myCarousel" data-slide-to=2></li>
+            </ol>
             <div class="carousel-inner">
                 <div class="item active">
                     <h1>Self-destructing message app</h1>
@@ -75,6 +80,12 @@
                 </div>
             </div>
         </div>
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
     </div>
 
 
