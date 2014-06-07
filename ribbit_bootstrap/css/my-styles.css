@@ -71,6 +71,14 @@ strong{
     padding-top: 30px;
 }
 
+.main-footer{
+    margin: 100px 0 80px 0;
+}
+
+.footer{
+    background-color: #E0E0E0;
+}
+
 /* Logos and Icons
 ================================= */
 
@@ -186,7 +194,8 @@ strong{
     width: 330px;
     padding: 15px 0;
     position: relative;
-    left: 250px; 
+    left: 230px;
+    margin-top: 10px;
 }
 
 /* Media Queries
