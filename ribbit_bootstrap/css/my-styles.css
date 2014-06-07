@@ -59,6 +59,18 @@ strong{
     margin: 80px 0 132px 0;
 }
 
+.callout .glyphicon {
+    margin-left: 10px;
+}
+
+.teacher-desc strong {
+    display: block;
+}
+
+.th-copy{
+    padding-top: 30px;
+}
+
 /* Logos and Icons
 ================================= */
 
@@ -165,6 +177,16 @@ strong{
     background-color: #fff;
     color: #957bba;
     border-color: #fff;
+}
+
+.btn-success {
+    box-shadow: 0 3px 0 #23812f;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    font-size: 1.5em;
+    width: 330px;
+    padding: 15px 0;
+    position: relative;
+    left: 250px; 
 }
 
 /* Media Queries
